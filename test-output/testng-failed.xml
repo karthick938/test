@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Email" value="StefanSalvatore@hbxcloud.com"/>
+  <parameter name="Lname" value="Salvatore"/>
+  <parameter name="Fname" value="Stefan"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="Email" value="StefanSalvatore@hbxcloud.com"/>
+    <parameter name="Lname" value="Salvatore"/>
+    <parameter name="Fname" value="Stefan"/>
+    <classes>
+      <class name="Package1.Exexution2">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Package1.Exexution2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

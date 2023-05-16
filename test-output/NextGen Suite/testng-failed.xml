@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NextGen Suite]" guice-stage="DEVELOPMENT">
+  <test name="AdminSidetestcases(failed)">
+    <classes>
+      <class name="Package1.Launch1">
+        <methods>
+          <include name="studentProfile"/>
+          <include name="studentgroup"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Package1.Launch1 -->
+    </classes>
+  </test> <!-- AdminSidetestcases(failed) -->
+</suite> <!-- Failed suite [NextGen Suite] -->
