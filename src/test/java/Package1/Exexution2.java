@@ -25,7 +25,7 @@ public class Exexution2 {
 		options.addArguments("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36");
 		options.addArguments("--remote-allow-origins=*");
 
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver(options);
 		//ChromeOptions options1 = new ChromeOptions();
 		
