@@ -23,9 +23,11 @@ public class Launch1 {
 
 	@BeforeTest
 	public void setup() throws InterruptedException {
-		/*ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 		//options.addArguments("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36");
 		options.addArguments("--remote-allow-origins=*");
+		options.addArguments("headless");
+		options.addArguments("disable-gpu");
 
 		WebDriverManager.chromedriver().setup();
 		System.out.println("Checking chrome launching succesful or not");
@@ -38,8 +40,8 @@ public class Launch1 {
 		driver.findElement(By.id("id_password")).sendKeys("5up3rU53r!");
 		driver.findElement(By.id("signin")).click();
 		driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div[1]/a")).click();
-		driver.findElement(By.partialLinkText("Create User")).click();*/
-		WebDriver driver;
+		driver.findElement(By.partialLinkText("Create User")).click();
+		/*WebDriver driver;
 		System.setProperty("Webdriver.chrome.driver","/usr/bin/chromedriver");
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("headless");
@@ -47,7 +49,7 @@ public class Launch1 {
 		options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);
 		driver.get("https://13-13-qa-1.myhbx.org/");
-		System.out.println("Chrome Launched");
+		System.out.println("Chrome Launched");*/
 		
 
 	}
