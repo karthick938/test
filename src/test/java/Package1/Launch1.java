@@ -46,7 +46,7 @@ public class Launch1 {
 		options.addArguments("disable-gpu");
 		options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);
-		driver.get("https://www.google.com/");
+		driver.get("https://13-13-qa-1.myhbx.org/");
 		System.out.println("Chrome Launched");
 		
 
