@@ -44,6 +44,7 @@ public class Launch1 {
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("headless");
 		options.addArguments("disable-gpu");
+		options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);
 		driver.get("https://www.google.com/");
 		System.out.println("Chrome Launched");
