@@ -41,14 +41,14 @@ public class Launch1 {
 		driver.findElement(By.id("signin")).click();
 		driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div[1]/a")).click();
 		driver.findElement(By.partialLinkText("Create User")).click();*/
-		/*WebDriver driver;
+		WebDriver driver;
 		System.setProperty("Webdriver.chrome.driver","/var/lib/snapd/apparmor/profiles/snap.chromium.chromedriver");
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("headless");
 		options.addArguments("disable-gpu");
 		options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);
-		driver.get("https://13-13-qa-1.myhbx.org/");*/
+		driver.get("https://13-13-qa-1.myhbx.org/");
 		System.out.println("Check Java executing????");
 		System.out.println("Chrome Launched");
 		
