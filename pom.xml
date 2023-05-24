@@ -6,6 +6,13 @@
   
   <dependencies>
 	
+	  
+	 	 <dependency>
+    			<groupId>org.seleniumhq.selenium</groupId>
+    			<artifactId>selenium-devtools-v113</artifactId>
+    			<version>4.8.1</version>
+		</dependency>
+
 		<dependency>
 		  <groupId>org.slf4j</groupId>
 		  <artifactId>slf4j-simple</artifactId>
