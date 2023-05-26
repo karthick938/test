@@ -49,6 +49,10 @@ public class Launch1 {
 		options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);
 		driver.get("https://13-13-qa-1.myhbx.org/");
+		Thread.sleep(10000);
+		driver.findElement(By.id("id_username")).sendKeys("superuser@hbxcloud.com");
+		driver.findElement(By.id("id_password")).sendKeys("5up3rU53r!");
+		driver.findElement(By.id("signin")).click();
 		System.out.println("Check Java executing????");
 		System.out.println("Chrome Launched");
 		
