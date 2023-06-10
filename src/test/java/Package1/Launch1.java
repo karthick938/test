@@ -27,7 +27,7 @@ public class Launch1 {
 	@BeforeTest
 	public void setup() throws InterruptedException, MalformedURLException {
 		DesiredCapabilities capability=new DesiredCapabilities();
-		capability.setBrowserName("Firefox");
+		capability.setBrowserName("chrome");
 		java.net.URL url =new java.net.URL("http://52.207.180.77:4445");
 		WebDriver driver = new RemoteWebDriver(url,capability);
 		driver.get("https://13-15-qa-1.myhbx.org");
